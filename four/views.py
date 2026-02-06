@@ -1,9 +1,9 @@
-from django.shortcuts import render
-
-# Create your views here.
 from rest_framework.viewsets import ModelViewSet
 from .models import Salom1, Salom2, Salom3, Salom4, Salom5
 from .serializers import Salom1Serializer, Salom2Serializer, Salom3Serializer, Salom4Serializer, Salom5Serializer
+
+# Create your views here.
+
 
 
 class Salom1ViewSet(ModelViewSet):
